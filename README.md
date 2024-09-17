@@ -8,3 +8,4 @@ from EEG signals. The scripts are customized for my project to analyze images th
 **References**
 
 Kar, Kohitij, et al. "Evidence that recurrent circuits are critical to the ventral stream’s execution of core object recognition behavior." Nature Neuroscience 22.6 (2019): 974-983.
+
