@@ -28,8 +28,6 @@ for participant in "${participants[@]}"; do
             for pseudotrial in "${pseudotrials[@]}"; do
                 # Run your Python script with the current participant, presentation time, test ratio, and pseudotrial
                 python decoding_obj.py ${participant} ${presentation_time} ${test_ratio} ${pseudotrial} ${n_perm}
-                #python decoding_obj_lessObj.py ${participant} ${presentation_time} ${test_ratio} ${pseudotrial} ${n_perm}
-                #python decoding_obj_lessObj_7trials.py ${participant} ${presentation_time} ${test_ratio} ${pseudotrial} ${n_perm}
             done
         done
     done
